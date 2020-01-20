@@ -1,0 +1,1 @@
+wordpress es el cms mas utilisado actualmente para la creacion de sitios web por eso es el mas atacado y en el cual se encurntran mas sitios vulnerables esto por tener versiones obsoletas de este o por temas y plugins desactualisados

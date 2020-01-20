@@ -1,0 +1,7 @@
+los ataques ddos o de denegacion de servicio permiten a los ataquentes poder hacer que un sitio web deje de funcionar eso por un colapso en el servidor al tener multiples peticiones que ya no puede soportar pero diran ahora hay servidores en los cuales si un usuario trata de acceder multiples veses bloquean su ip y eso es verdad pero para eso tambien hay botnets las cuales son multiples dispositivos zombies los cuales al atacante decirle que se dirigan a un sitio en especifico todas estas peticiones el servidor colapsa y haveses no es nesesario atacar el sitio web otra manera es atacar el dns de este esto porque al tunbar su dns los usuario que no sepan la direccion ip del sitio wwb no se van a poder connectat y seamos sinseros no todo mundo tiene las direcciones ip de sus sitios web hay personas que no saben ni que es una direccion ip para este ejemplo de hoy vamos a utilisar htop y siege el cual es un programa para probar la resistencia de nuestro servidor ante estos ataques ddos lo que haremos es enviarle multiples peticiones empesemos 
+
+		1. sudo apt-get install htop
+		2. sudo apt-get install siege
+		3. siege -c 10 -t 305 http://culturatecnoinformatica.wordpress.com/
+
+le podemos aumentar losiege nos podra simular el acceso simultanio de n cantidad de usuario mientras htop nos permitira monnitoria los recursos utilisados en el servidor de la victima haremos y aumentaremso esto hasta que el servidor colapse
