@@ -1,0 +1,1 @@
+docker son contenedores los cuales nos sirven para que nustro proyecto ser provado en otro equipo funciona ya que instala las dependencias nesesarias esto para que el proyecto pueda funcionar sin tanto complicaciones, 
